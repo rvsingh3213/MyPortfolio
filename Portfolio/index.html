@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ravisher Portfolio Website</title>
+
+    <!--bootstrap link-->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <!--Normalize CSS-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css"
+    />
+    <!-- fontawesome-->
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <!--Codechef icon-->
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+
+    <!--Own CSS File-->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+     <!-- <div class="logo"><img src="" alt="" /></div> -->
+     <!-- <button class="nav-toggle" aria-label="toggle navigation"> -->
+  
+      <nav class="navbar">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#home" class="nav__link">HOME</a></li>
+          <li class="nav__item">
+            <a href="#services" class="nav__link">Services</a>
+          </li>
+         
+          <li class="nav__item">
+            <a href="#work" class="nav__link">My Work</a>
+          </li>
+
+          <!-- <li class="nav__item">
+                      <a href="#about" class="nav__link">About me</a>
+                    </li>
+                  -->
+                    
+        </ul>
+      </nav>
+    </header>
+    <!--introduction-->
+    <section  class="intro" id="home">
+      <h1 class="section__title section__title--intro">
+        Hi, I am <strong>Ravisher Singh</strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro">Software Engineer</p>
+      <img class="pass_image" src="./images/pass.jpg" alt="my image" />
+    </section>
+    <!--My Services-->
+    <section class="my-services" id="services">
+      <h2 class="section__title section__title--services">What I do</h2>
+      <div class="services">
+        <div class="service">
+          <h3 class="service-header">Professional Experience</h3>
+          <p class="service-para">
+          I have worked in Business to Business as Hybris developer in e-commerce domain with Java and Spring Framework, handled Hybris Configuration Management activities such as ImpEx , CronJobs and worked on static pages using Java and XML. Solved UI defects during UAT.
+          </p>
+        </div>
+
+        <div class="service">
+          <h3 class="service-header">Design + Development</h3>
+          <p class="service-para">
+            I have designed and developed various android apps and Web apps.I have worked in Java, HTML, Javascript
+            and more. Interested in learning new technologies and levelling up my skills. I LOVE problem solving and getting tech tools to work together.
+          </p>
+        </div>
+        <!--end service-->
+
+       
+        <!--end service-->
+
+        <div class="service">
+          <h3 class="service-header">Projects</h3>
+          <p class="service-para">
+           I have worked on KeyLogger written in C++, build different Android apps with Java and XML , worked in web apps with HTML,CSS and Javascript and working on more project to skill up. Below are some references.
+          </p>
+        </div>
+        <!--end service-->
+      </div>
+      <!--end serviceesssss-->
+      <a href="#work" class="btn">My Work</a>
+    </section>
+
+        <!--My Work-->
+    <section class="my-work" id="work">
+      <h2 class="section__title section__title--work">My Work</h2>
+      <p class="section__subtitle section__subtitle--work">
+        A Selection of my Range of Work
+      </p>
+
+      <div class="portfolio">
+        <!--portfolio images-->
+        <a href="https://woodhouse.netlify.app/" class="portfolio__item">
+          <img src="./work/woodhouse.jpg" alt="" class="portfolio__img" />
+        </a>
+        
+
+        <a href="https://github.com/rvsingh3213/Expense-Manager" class="portfolio__item">
+          <img src="./work/expenseM.jpg" alt="" class="portfolio__img" />
+        </a>
+        <a href="https://github.com/rvsingh3213/Android-Restaurent-Dine-In-Booking-App" class="portfolio__item">
+          <img src="./work/restaurent_app.jpg" alt="" class="portfolio__img" />
+        </a>
+        <a href="https://github.com/rvsingh3213/Weather-Application-Mausam" class="portfolio__item">
+          <img src="./work/mausam.jpg" alt="" class="portfolio__img" />
+        </a>
+
+       
+      </div>
+      <!--my work images end-->
+    </section>
+
+    <!--Footer-->
+    <footer class="footer" id="footer-main">
+      <div><a href="mailto:rvsingh3213@gmail.com" class="footer_link">rvsingh3213@gmail.com</a></div>
+      <div class="resume-div"><button class="resume-download"><a href="https://drive.google.com/file/d/1mqrfglmnkhdQefRKeEAKxAXjBfPHNd7o/view?usp=sharing"><i class="fas fa-download"> Resume Download</i></button></a></div>
+     
+      <ul class="social_list">
+        <li class="social_list_item">
+          <a href="https://www.linkedin.com/in/ravisher-singh-728067132/" class="social__list--link"><i
+              class="fab fa-linkedin-in"></i></a>
+        </li>
+        <li class="social_list_item">
+          <a href="https://github.com/rvsingh3213" class="social_list--link"><i class="fab fa-github"></i></a>
+        </li>
+        <li class="social__list_item">
+          <a
+            href="https://www.codechef.com/users/rv3213"
+            class="social__list--link"
+            ><span
+              class="iconify"
+              data-icon="simple-icons:codechef"
+              data-inline="false"
+            ></span
+          ></a>
+        </li>
+        <li class="social_list_item">
+          <a
+            href="https://www.instagram.com/baadi_ravisher/"
+            class="social__list--link"
+            ><i class="fab fa-instagram"></i></i
+          ></a>
+        </li>
+      </ul>
+    </footer>
+
+
+    <!--JavaScript-->
+    <script src=""></script>
+  </body>
+</html>
