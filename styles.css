@@ -377,7 +377,7 @@ header {
     1fr
   ); /* repeat(auto-fit, minmax(200px, 1fr)); */
   margin: 0 auto; /*to keep it into center */
-  height: 200px;
+  height: 420px;
 }
 
 .portfolio__item {
